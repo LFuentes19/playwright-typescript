@@ -131,6 +131,32 @@ Desde VS Code, podés:
 - abrir el reporte HTML
 - usar el navegador a través del servidor MCP
 
+### Prueba práctica del MCP
+
+Una forma sencilla de comprobar que el servidor MCP funciona es pedirle al asistente que use el navegador para navegar a una URL y realizar una acción real.
+
+Ejemplo:
+
+```text
+Ingresá a https://www.booking.com y buscá el campo de destino. Escribí "Buenos Aires". Luego hacé una captura de pantalla de la pantalla inicial con los resultados.
+```
+
+También podés probar una URL más simple:
+
+```text
+Abrí https://example.com y dime cuál es el título de la página.
+```
+
+Si el MCP está bien conectado, el asistente podrá abrir el navegador, navegar a la URL, leer la página y responder con el resultado real.
+
+Otro ejemplo útil:
+
+```text
+Ingresá a https://www.wikipedia.org, buscá la barra de búsqueda y escribí "Playwright". Luego dime cuántos resultados aparecen en la página.
+```
+
+Esto valida que el servidor MCP tiene acceso al navegador y puede interactuar con elementos reales de la interfaz.
+
 ## 10. Flujo recomendado para trabajar normalmente
 
 1. Abrir el proyecto en VS Code.
